@@ -1799,11 +1799,11 @@ public:
       else               
         { 
          //#ifndef _WIN64
-         //strcpy_s(path,"mtmanapi.dll"); 
-         //path[sizeof(path)-1]=0; 
-         //#else
-         strcpy(path,"mtmanapi64.dll"); 
+         strcpy(path,"mtmanapi.dll"); 
          path[sizeof(path)-1]=0; 
+         //#else
+        //  strcpy(path,"mtmanapi64.dll"); 
+        //  path[sizeof(path)-1]=0; 
          //#endif
         }
       //---
